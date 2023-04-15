@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -10,22 +10,25 @@ body {
 
 .header .page-tabs ul {
   display: flex;
-  justify-content: flex-end;
-  padding: 0 2vw;
+  justify-content: center;
+  padding: 1vw 2vw;
+  margin: 0;
 }
 .header .page-tabs ul li {
   list-style: none;
-  margin: 0 1vw;
+  margin-right: 1.2vw;
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   cursor: pointer;
   letter-spacing: 0.7px;
+  color: lightgrey;
+}
+.header .page-tabs ul li:hover {
+  text-decoration: underline;
 }
 .header .page-tabs ul .active {
-  translate: 0 15px;
-  font-weight: 500;
-  text-decoration: underline;
+  color: black;
 }
 
 /*# sourceMappingURL=index.css.map */
