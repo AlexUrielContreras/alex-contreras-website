@@ -10,7 +10,7 @@ function App() {
       </header>
 
       <section>
-        {/* The different page will go here    */}
+        <Landing />
       </section>
     </div>
   )
