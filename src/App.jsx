@@ -28,7 +28,7 @@ function App() {
         <Header setCurrentTab={setCurrentTab} currentTab={currentTab}/>
       </header>
 
-      <section>
+      <section className='content-container'>
         {displayPage(currentTab)}
       </section>
     </div>

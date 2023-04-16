@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -8,6 +9,9 @@ body {
   padding: 0;
 }
 
+.header .page-tabs {
+  font-family: "Poppins", sans-serif;
+}
 .header .page-tabs ul {
   display: flex;
   justify-content: center;
@@ -18,7 +22,6 @@ body {
   list-style: none;
   margin-right: 1.2vw;
   font-size: 1.2rem;
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   cursor: pointer;
   letter-spacing: 0.7px;
@@ -29,6 +32,26 @@ body {
 }
 .header .page-tabs ul .active {
   color: black;
+}
+
+.content-container .titles {
+  text-align: center;
+  margin: 25vh auto;
+  border-bottom: 2px solid black;
+  max-width: 85vw;
+  font-family: "Nunito Sans", sans-serif;
+}
+.content-container .titles .name {
+  font-size: 4.8rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 1px;
+  line-height: 75px;
+}
+.content-container .titles h2 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  margin: 0 0 1.2vh;
 }
 
 /*# sourceMappingURL=index.css.map */
