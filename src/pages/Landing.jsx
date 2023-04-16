@@ -1,4 +1,5 @@
-import Resume from '../assets/resume/Alex_Contreras_V2_Resume_Website.pdf'
+import Resume from '../assets/resume/Alex_Contreras_V2_Resume_Website.pdf';
+import IconLinks from '../conponents/IconLinks';
 
 function Landing() {
    return (
@@ -10,6 +11,7 @@ function Landing() {
 
          <div className='landing-cta'>
             <a href={Resume} download className='resume-download'>Download Resume</a>
+            <IconLinks />
          </div>
       </div>
    )

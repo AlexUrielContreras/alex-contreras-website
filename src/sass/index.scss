@@ -74,8 +74,22 @@ body {
       .resume-download {
          color: black;
          text-decoration: none;
-         font-size: 2rem;
+         font-size: 1.8rem;
+      }
+      .resume-download:hover {
+         text-decoration: underline
       }
 
+      .social-links-container {
+         margin-top: 1.5vh
+      }
+
+      .social-links {
+         margin: 0 1vw;
+
+         img:hover {
+            transform: scale(1.1, 1.1)
+         }
+      }
    }
 }
